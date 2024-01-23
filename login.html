@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="login.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Login page</title>
+  </head>
+  <body>     
+    <section>
+      <i class="fa-solid fa-ghost fa-bounce fa-flip-both fa-2xl"></i>
+            <div class="container">
+        <form action="">
+          <h2 id="title">Login</h2>
+          <div class="input">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="inp">
+              <input type="email" id="email" placeholder="exemple@gmail.com" />
+              <i class="fa fa-times u_times"></i>
+              <i class="fa fa-check u_check"></i>
+            </div>
+          </div>
+          <div class="input">
+            <i class="fa-solid fa-lock"></i>
+            <div class="inp">
+              <input type="password" id="password" placeholder="password" />
+              <i class="fa fa-times e_times"></i>
+              <i class="fa fa-check e_check"></i>
+            </div>
+          </div>
+          <div class="help">
+            <label><input type="checkbox" />Remember me</label>
+            <a href="#">Forget password?</a>
+          </div>
+          <button type="submit">Login</button>
+          <div class="signup">
+            <p>create new account?</p>
+            <a href="#">Sign UP</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="login.js"></script>
+  </body>
+</html>
